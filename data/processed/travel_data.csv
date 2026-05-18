@@ -1,0 +1,75 @@
+city,name,type,price_eur,rating,description,source,price_range
+Berlin,Curry 36,restaurant,8,4.6,Famous currywurst stand - iconic Berlin street food,manual_restaurants,budget
+Berlin,Tim Raue,restaurant,120,4.8,Michelin-starred restaurant with creative Asian cuisine,manual_restaurants,upscale
+Berlin,Zur Letzten Instanz,restaurant,25,4.5,Historic restaurant (1525) serving traditional Berlin cuisine,manual_restaurants,budget
+Berlin,Markthalle Neun,restaurant,15,4.4,Street food market with international cuisines,manual_restaurants,budget
+Berlin,Prater Garten,restaurant,18,4.3,Berlin's oldest beer garden with traditional Bavarian fare,manual_restaurants,budget
+Paris,L'As du Fallafel,restaurant,12,4.7,Famous fallafel spot on Rue des Rosiers - Paris institution,manual_restaurants,budget
+Paris,L'Astrance,restaurant,150,4.9,3 Michelin stars - innovative French haute cuisine,manual_restaurants,upscale
+Paris,Café de Flore,restaurant,35,4.4,Historic literary café - perfect for people watching,manual_restaurants,budget
+Paris,L'Ami Jean,restaurant,28,4.6,Cozy bistro with traditional French dishes,manual_restaurants,budget
+Paris,Du Pain et des Idées,restaurant,6,4.8,Best croissants and pastries in Paris,manual_restaurants,budget
+Barcelona,Can Culleretes,restaurant,32,4.5,Oldest restaurant in Barcelona (1786) - traditional Catalan,manual_restaurants,budget
+Barcelona,Tickets Bar,restaurant,80,4.8,Molecular gastronomy tapas - highly innovative,manual_restaurants,moderate
+Barcelona,La Boqueria Market,restaurant,18,4.5,Famous food market with fresh seafood and local specialties,manual_restaurants,budget
+Barcelona,Cervecería Catalana,restaurant,25,4.6,Popular tapas bar with excellent wine selection,manual_restaurants,budget
+Barcelona,Pujol,restaurant,95,4.7,Contemporary Catalan cuisine with cultural twist,manual_restaurants,moderate
+Amsterdam,De Kas,restaurant,110,4.8,Michelin-starred restaurant in a historic glasshouse,manual_restaurants,upscale
+Amsterdam,Stroopwafels,restaurant,3,4.7,Sweet waffle sandwich - iconic Dutch treat,manual_restaurants,budget
+Amsterdam,Pancakes Amsterdam,restaurant,12,4.5,Traditional Dutch pancakes (savory and sweet),manual_restaurants,budget
+Amsterdam,Café de jaren,restaurant,20,4.4,Waterfront café with traditional Dutch food,manual_restaurants,budget
+Amsterdam,Café de Reiger,restaurant,28,4.6,Cozy neighborhood spot with Mediterranean influences,manual_restaurants,budget
+Rome,Flavio al Velavevodetto,restaurant,45,4.6,Traditional Roman cuisine in historic Monti district,manual_restaurants,budget
+Rome,Il Sorpasso,restaurant,32,4.5,Modern Italian with vintage Roman atmosphere,manual_restaurants,budget
+Rome,Cacio e Pepe,restaurant,15,4.7,Famous Roman pasta dish (cheese and pepper) - iconic,manual_restaurants,budget
+Rome,Sora Lella,restaurant,50,4.6,Historic Roman trattoria with traditional dishes,manual_restaurants,moderate
+Rome,Gelato di San Crispino,restaurant,5,4.8,Award-winning gelato near Trevi Fountain,manual_restaurants,budget
+London,Borough Market,restaurant,18,4.6,Historic food market with international cuisines,manual_restaurants,budget
+London,The Ledbury,restaurant,140,4.8,Michelin-starred French cuisine in Notting Hill,manual_restaurants,upscale
+London,Fish & Chips @ Poppies,restaurant,16,4.5,Classic British fish and chips - must try,manual_restaurants,budget
+London,Dishoom,restaurant,28,4.7,Popular Indian restaurant with Bombay vibes,manual_restaurants,budget
+London,Sketch,restaurant,120,4.6,Artistic fine dining with stunning Michelin experience,manual_restaurants,upscale
+Berlin,Hotel Berlin Central,hotel,45,4.2,3-star hotel near Brandenburg Gate with comfortable rooms and good breakfast,manual_hotels,budget
+Berlin,Hostel Berliner Mitte,hotel,25,4.0,"Budget hostel in the heart of Berlin, great for backpackers",manual_hotels,budget
+Berlin,Adlon Kempinski,hotel,250,4.8,Luxury 5-star hotel with historic charm and top service,manual_hotels,upscale
+Paris,Hotel du Marais,hotel,40,4.3,Charming 3-star hotel in the vibrant Marais district,manual_hotels,budget
+Paris,Hostel du Marais,hotel,28,4.1,Social hostel with communal kitchen and rooftop terrace,manual_hotels,budget
+Paris,Ritz Paris,hotel,300,4.9,Ultra-luxury palace hotel on Place Vendôme,manual_hotels,luxury
+Barcelona,Hotel Sagrada Familia,hotel,50,4.4,Modern 3-star hotel near the iconic Sagrada Familia,manual_hotels,moderate
+Barcelona,Barcelona Backpackers,hotel,30,4.2,Lively hostel with great social atmosphere,manual_hotels,budget
+Barcelona,Mandarin Oriental Barcelona,hotel,280,4.9,Luxury seaside hotel with Michelin-starred dining,manual_hotels,upscale
+Amsterdam,Canal House Amsterdam,hotel,55,4.5,Charming 3-star hotel in a converted canal palace,manual_hotels,moderate
+Amsterdam,ClinkNOORD Hostel,hotel,35,4.3,Hip hostel with great bar and views over the Amstel River,manual_hotels,budget
+Amsterdam,Waldorf Astoria Amsterdam,hotel,350,4.9,Ultra-luxury hotel in six connected canal palaces,manual_hotels,luxury
+Rome,Hotel Colonna,hotel,48,4.3,Comfortable 3-star hotel near the Colosseum,manual_hotels,budget
+Rome,The Yellow Hostel,hotel,32,4.1,Budget-friendly hostel with prime location near Forum,manual_hotels,budget
+Rome,Hotel Eden,hotel,280,4.8,Luxury 5-star hotel with rooftop bar overlooking the city,manual_hotels,upscale
+London,Hotel Premier London,hotel,60,4.4,3-star hotel in vibrant Shoreditch with modern amenities,manual_hotels,moderate
+London,Travelodge London,hotel,50,4.0,Budget hotel near Oxford Street with clean rooms,manual_hotels,moderate
+London,Claridge's,hotel,320,4.9,Iconic luxury hotel in Mayfair with impeccable service,manual_hotels,luxury
+Berlin,Brandenburg Gate Tour,activity,15,4.6,Guided tour of Berlin's most iconic landmark with historical insights,manual_activities,budget
+Berlin,Berlin Wall Memorial Visit,activity,0,4.7,Free visit to the East Side Gallery - the longest remaining Berlin Wall section,manual_activities,budget
+Paris,Louvre Museum Ticket,activity,20,4.8,Entry to the world's most famous art museum with the Mona Lisa,manual_activities,budget
+Paris,Eiffel Tower Visit,activity,18,4.7,Ascend the iconic iron tower for breathtaking Paris views,manual_activities,budget
+Barcelona,Sagrada Familia Tour,activity,25,4.7,Guided visit to Gaudí's masterpiece with architectural details explained,manual_activities,budget
+Barcelona,Park Güell Entrance,activity,16,4.6,Colorful hilltop park with stunning city views and mosaic art,manual_activities,budget
+Amsterdam,Anne Frank House,activity,16,4.8,Moving museum dedicated to Anne Frank's life during WWII,manual_activities,budget
+Amsterdam,Canal Boat Cruise,activity,18,4.5,Scenic cruise through Amsterdam's picturesque canal system,manual_activities,budget
+Rome,Colosseum Tour,activity,18,4.7,Ancient amphitheater tour with gladiator history and underground tunnels,manual_activities,budget
+Rome,Vatican Museums & Sistine Chapel,activity,22,4.8,One of the world's greatest art collections and Michelangelo's masterpiece,manual_activities,budget
+London,Tower of London,activity,30,4.6,Historic fortress with Crown Jewels and royal history,manual_activities,budget
+London,Big Ben & Houses of Parliament,activity,20,4.5,Iconic Gothic architecture and guided tour of British Parliament,manual_activities,budget
+Berlin,FlixBus: Berlin → Paris,transport,40,4.2,Travel from Berlin to Paris via FlixBus (14h),manual_transport,budget
+Berlin,Train: Berlin → Paris,transport,80,4.2,Travel from Berlin to Paris via Train (10h),manual_transport,moderate
+Berlin,FlixBus: Berlin → Amsterdam,transport,30,4.2,Travel from Berlin to Amsterdam via FlixBus (8h),manual_transport,budget
+Berlin,Flight: Berlin → Barcelona,transport,70,4.2,Travel from Berlin to Barcelona via Flight (3h),manual_transport,moderate
+Paris,Flight: Paris → Barcelona,transport,55,4.2,Travel from Paris to Barcelona via Flight (2.5h),manual_transport,moderate
+Paris,FlixBus: Paris → Barcelona,transport,45,4.2,Travel from Paris to Barcelona via FlixBus (16h),manual_transport,budget
+Paris,Train: Paris → Amsterdam,transport,75,4.2,Travel from Paris to Amsterdam via Train (4h),manual_transport,moderate
+Paris,Flight: Paris → Rome,transport,60,4.2,Travel from Paris to Rome via Flight (2h),manual_transport,moderate
+Barcelona,Flight: Barcelona → Amsterdam,transport,70,4.2,Travel from Barcelona to Amsterdam via Flight (3h),manual_transport,moderate
+Barcelona,Flight: Barcelona → Rome,transport,75,4.2,Travel from Barcelona to Rome via Flight (2.5h),manual_transport,moderate
+Barcelona,Flight: Barcelona → London,transport,65,4.2,Travel from Barcelona to London via Flight (2h),manual_transport,moderate
+Amsterdam,Flight: Amsterdam → Rome,transport,85,4.2,Travel from Amsterdam to Rome via Flight (2.5h),manual_transport,moderate
+Amsterdam,Train: Amsterdam → London,transport,100,4.2,Travel from Amsterdam to London via Train (6h),manual_transport,upscale
+Rome,Flight: Rome → London,transport,75,4.2,Travel from Rome to London via Flight (2.5h),manual_transport,moderate

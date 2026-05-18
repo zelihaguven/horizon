@@ -1,0 +1,210 @@
+{
+  "request": {
+    "destination": "Barcelona",
+    "duration_days": 5,
+    "budget_eur": 3000,
+    "travelers": 2,
+    "preferences": [
+      "beaches",
+      "art",
+      "dining"
+    ]
+  },
+  "variants": [
+    {
+      "name": "Luxury",
+      "cost_breakdown": {
+        "accommodation_total": 1200.0,
+        "meals_total": 1200.0,
+        "activities_total": 450.0,
+        "transport_total": 150.0,
+        "total_eur": 3000,
+        "per_person_eur": 3000
+      },
+      "highlights": [
+        "Premium hotels",
+        "Michelin dining",
+        "Exclusive tours"
+      ],
+      "notes": "Luxury experience focusing on premium accommodations and dining",
+      "recommendation_score": 47.5,
+      "recommendation_reasoning": [
+        "Budget fit: 0/100 (\u20ac3000 of \u20ac3000)",
+        "Activity match: 33/100 (1/3 preferences matched)",
+        "Profile fit: 100/100 (Luxury-seeker user choosing luxury)",
+        "Value score: 50/100 (\u20ac1500 per person)"
+      ],
+      "recommendation_confidence": 57.0,
+      "detailed_scores": {
+        "budget_fit": 0,
+        "activity_fit": 33.33333333333333,
+        "user_profile_fit": 100,
+        "value_score": 50,
+        "overall_score": 47.5
+      },
+      "recommended_rank": 1,
+      "recommendation_label": "\u2b50 BEST FOR YOU"
+    },
+    {
+      "name": "Comfort",
+      "cost_breakdown": {
+        "accommodation_total": 1050.0,
+        "meals_total": 1050.0,
+        "activities_total": 750.0,
+        "transport_total": 150.0,
+        "total_eur": 3000,
+        "per_person_eur": 3000
+      },
+      "highlights": [
+        "Mixed hotels and hostels",
+        "Diverse dining",
+        "Major attractions"
+      ],
+      "notes": "Balanced experience with good value for money",
+      "recommendation_score": 35.5,
+      "recommendation_reasoning": [
+        "Budget fit: 0/100 (\u20ac3000 of \u20ac3000)",
+        "Activity match: 33/100 (1/3 preferences matched)",
+        "Profile fit: 60/100 (Luxury-seeker user choosing comfort)",
+        "Value score: 50/100 (\u20ac1500 per person)"
+      ],
+      "recommendation_confidence": 42.6,
+      "detailed_scores": {
+        "budget_fit": 0,
+        "activity_fit": 33.33333333333333,
+        "user_profile_fit": 60,
+        "value_score": 50,
+        "overall_score": 35.5
+      },
+      "recommended_rank": 2,
+      "recommendation_label": "\u2713 GOOD OPTION"
+    },
+    {
+      "name": "Budget",
+      "cost_breakdown": {
+        "accommodation_total": 1200.0,
+        "meals_total": 1200.0,
+        "activities_total": 450.0,
+        "transport_total": 150.0,
+        "total_eur": 3000,
+        "per_person_eur": 3000
+      },
+      "highlights": [
+        "City walking tours",
+        "Local markets",
+        "Street food"
+      ],
+      "notes": "Budget-focused with emphasis on free/low-cost attractions",
+      "recommendation_score": 13.5,
+      "recommendation_reasoning": [
+        "Budget fit: 0/100 (\u20ac3000 of \u20ac3000)",
+        "Activity match: 0/100 (0/3 preferences matched)",
+        "Profile fit: 20/100 (Luxury-seeker user choosing budget)",
+        "Value score: 50/100 (\u20ac1500 per person)"
+      ],
+      "recommendation_confidence": 16.2,
+      "detailed_scores": {
+        "budget_fit": 0,
+        "activity_fit": 0.0,
+        "user_profile_fit": 20,
+        "value_score": 50,
+        "overall_score": 13.5
+      },
+      "recommended_rank": 3,
+      "recommendation_label": "\u2022 ALTERNATIVE"
+    }
+  ],
+  "status": "generated",
+  "recommendation_summary": {
+    "recommended_variant": "Luxury",
+    "recommendation_score": "47.5/100",
+    "confidence": "57%",
+    "key_reasons": [
+      "Budget fit: 0/100 (\u20ac3000 of \u20ac3000)",
+      "Activity match: 33/100 (1/3 preferences matched)",
+      "Profile fit: 100/100 (Luxury-seeker user choosing luxury)"
+    ],
+    "cost_range": {
+      "min": 3000,
+      "max": 3000,
+      "recommended": 3000
+    },
+    "other_options": [
+      {
+        "variant": "Comfort",
+        "score": "35.5/100",
+        "cost_per_person": "\u20ac3000"
+      },
+      {
+        "variant": "Budget",
+        "score": "13.5/100",
+        "cost_per_person": "\u20ac3000"
+      }
+    ]
+  },
+  "validation": {
+    "status": "INVALID",
+    "quality_score": 0,
+    "total_issues": 9,
+    "critical_issues": 3,
+    "warnings": 6,
+    "issues": [
+      {
+        "level": "critical",
+        "component": "duration",
+        "message": "DURATION MISMATCH: Luxury has 0 days (expected 5)",
+        "severity": 100.0
+      },
+      {
+        "level": "critical",
+        "component": "duration",
+        "message": "DURATION MISMATCH: Comfort has 0 days (expected 5)",
+        "severity": 100.0
+      },
+      {
+        "level": "critical",
+        "component": "duration",
+        "message": "DURATION MISMATCH: Budget has 0 days (expected 5)",
+        "severity": 100.0
+      },
+      {
+        "level": "warning",
+        "component": "budget",
+        "message": "HIGH USAGE: Luxury uses 100% of budget",
+        "severity": 50.0
+      },
+      {
+        "level": "warning",
+        "component": "budget",
+        "message": "HIGH USAGE: Comfort uses 100% of budget",
+        "severity": 50.0
+      },
+      {
+        "level": "warning",
+        "component": "budget",
+        "message": "HIGH USAGE: Budget uses 100% of budget",
+        "severity": 50.0
+      },
+      {
+        "level": "warning",
+        "component": "activity_costs",
+        "message": "ACTIVITY COST MISMATCH: Activities sum to \u20ac0, breakdown shows \u20ac450.0",
+        "severity": 30.0
+      },
+      {
+        "level": "warning",
+        "component": "activity_costs",
+        "message": "ACTIVITY COST MISMATCH: Activities sum to \u20ac0, breakdown shows \u20ac750.0",
+        "severity": 30.0
+      },
+      {
+        "level": "warning",
+        "component": "activity_costs",
+        "message": "ACTIVITY COST MISMATCH: Activities sum to \u20ac0, breakdown shows \u20ac450.0",
+        "severity": 30.0
+      }
+    ],
+    "hallucinations_found": [],
+    "summary": "\u274c INVALID - 3 critical issues must be fixed"
+  }
+}

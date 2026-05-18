@@ -1,0 +1,323 @@
+{
+  "request": {
+    "destination": "Berlin",
+    "duration_days": 4,
+    "budget_eur": 1200,
+    "travelers": 2,
+    "preferences": [
+      "culture",
+      "nightlife",
+      "history"
+    ]
+  },
+  "variants": [
+    {
+      "name": "Budget",
+      "daily_budget_eur": 300,
+      "accommodation": {
+        "name": "Hostel Berliner Mitte",
+        "price_per_night_eur": 25,
+        "nights": 3,
+        "total_eur": 75
+      },
+      "meals": {
+        "breakfast_lunch_dinner_per_day_eur": 40,
+        "total_eur": 160
+      },
+      "activities": [
+        {
+          "name": "Brandenburg Gate Tour",
+          "cost_eur": 15,
+          "day": 1
+        },
+        {
+          "name": "Berlin Wall Memorial Visit",
+          "cost_eur": 0,
+          "day": 2
+        },
+        {
+          "name": "Reichstag Dome Entry",
+          "cost_eur": 0,
+          "day": 3
+        },
+        {
+          "name": "Museum Island Pass",
+          "cost_eur": 29,
+          "day": 4
+        }
+      ],
+      "transport": {
+        "description": "Public transport card (3-day)",
+        "cost_eur": 30
+      },
+      "daily_itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive Berlin",
+            "Check in Hostel Berliner Mitte",
+            "Brandenburg Gate Tour (€15)",
+            "Potsdamer Platz walk (Free)",
+            "Street food dinner (€12)"
+          ],
+          "estimated_cost_eur": 27
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Breakfast (€6)",
+            "Berlin Wall Memorial (Free)",
+            "East Side Gallery (Free)",
+            "Lunch at local café (€10)",
+            "Clubbing at Berghain area (€15)"
+          ],
+          "estimated_cost_eur": 31
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Breakfast (€6)",
+            "Reichstag Dome (Free booking)",
+            "Museum Island exploration (€5)",
+            "Lunch near museums (€12)",
+            "Kreuzberg neighborhood walk (Free)"
+          ],
+          "estimated_cost_eur": 23
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Breakfast (€6)",
+            "Museum Island Pass (€29)",
+            "Lunch in Mitte (€10)",
+            "Charlottenburg Palace (Free grounds)",
+            "Farewell dinner (€15)"
+          ],
+          "estimated_cost_eur": 60
+        }
+      ],
+      "cost_breakdown": {
+        "accommodation_total": 75,
+        "meals_total": 160,
+        "activities_total": 44,
+        "transport_total": 30,
+        "total_eur": 309,
+        "per_person_eur": 155
+      },
+      "highlights": [
+        "Historical landmarks (Wall, Gate, Reichstag)",
+        "Free museums and galleries",
+        "Vibrant nightlife scene",
+        "Budget-friendly exploration"
+      ],
+      "notes": "Budget variant ideal for culture and history enthusiasts. Many attractions free or low-cost. Nightlife scene very affordable with cheap drinks. Plenty of budget left (€891) for additional activities."
+    },
+    {
+      "name": "Comfort",
+      "daily_budget_eur": 400,
+      "accommodation": {
+        "name": "Hotel Berlin Central",
+        "price_per_night_eur": 45,
+        "nights": 3,
+        "total_eur": 135
+      },
+      "meals": {
+        "breakfast_lunch_dinner_per_day_eur": 65,
+        "total_eur": 260
+      },
+      "activities": [
+        {
+          "name": "Guided Berlin Wall Tour",
+          "cost_eur": 25,
+          "day": 1
+        },
+        {
+          "name": "Museum Island Full Access",
+          "cost_eur": 45,
+          "day": 2
+        },
+        {
+          "name": "Reichstag Dome with Guide",
+          "cost_eur": 12,
+          "day": 3
+        },
+        {
+          "name": "Nightlife tour with drinks",
+          "cost_eur": 50,
+          "day": 4
+        }
+      ],
+      "transport": {
+        "description": "Public transport pass + 2 taxi rides",
+        "cost_eur": 40
+      },
+      "daily_itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Arrive Berlin",
+            "Check in Hotel Berlin Central",
+            "Guided Berlin Wall Tour (€25)",
+            "East Side Gallery visit (€8)",
+            "Dinner at nice restaurant (€35)"
+          ],
+          "estimated_cost_eur": 68
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Breakfast at hotel (€10)",
+            "Museum Island Full Access (€45)",
+            "Lunch in Museum area (€20)",
+            "Rest & shopping (Free/€30)",
+            "Dinner at restaurant (€40)"
+          ],
+          "estimated_cost_eur": 145
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Breakfast (€10)",
+            "Reichstag Dome with guide (€12)",
+            "Lunch at Bundestag café (€12)",
+            "Charlottenburg Palace tour (€12)",
+            "Classical concert in evening (€35)"
+          ],
+          "estimated_cost_eur": 81
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Breakfast (€10)",
+            "Kreuzberg neighborhood tour (Free)",
+            "Lunch (€18)",
+            "Final shopping (€20)",
+            "Nightlife tour with drinks (€50)"
+          ],
+          "estimated_cost_eur": 98
+        }
+      ],
+      "cost_breakdown": {
+        "accommodation_total": 135,
+        "meals_total": 260,
+        "activities_total": 132,
+        "transport_total": 40,
+        "total_eur": 567,
+        "per_person_eur": 283
+      },
+      "highlights": [
+        "Guided tours of historical sites",
+        "Full museum access",
+        "Classical concerts and culture",
+        "Vibrant nightlife with local guides",
+        "Mid-range comfortable accommodation"
+      ],
+      "notes": "Comfort variant with guided experiences and quality dining. Includes concerts and curated tours. Good balance of culture and nightlife. Budget remaining (€633) for additional experiences."
+    },
+    {
+      "name": "Luxury",
+      "daily_budget_eur": 600,
+      "accommodation": {
+        "name": "Adlon Kempinski",
+        "price_per_night_eur": 250,
+        "nights": 3,
+        "total_eur": 750
+      },
+      "meals": {
+        "breakfast_lunch_dinner_per_day_eur": 120,
+        "total_eur": 480
+      },
+      "activities": [
+        {
+          "name": "Private history tour of Berlin",
+          "cost_eur": 150,
+          "day": 1
+        },
+        {
+          "name": "VIP museum access",
+          "cost_eur": 80,
+          "day": 2
+        },
+        {
+          "name": "Private Reichstag tour",
+          "cost_eur": 120,
+          "day": 3
+        },
+        {
+          "name": "VIP nightclub with bottle service",
+          "cost_eur": 180,
+          "day": 4
+        }
+      ],
+      "transport": {
+        "description": "Private car service throughout",
+        "cost_eur": 120
+      },
+      "daily_itinerary": [
+        {
+          "day": 1,
+          "activities": [
+            "Private car from airport",
+            "Check in Adlon Kempinski (luxury suite)",
+            "Private history tour (€150)",
+            "Michelin-inspired lunch (€60)",
+            "Afternoon spa at hotel (€100)",
+            "Dinner at top restaurant (€80)"
+          ],
+          "estimated_cost_eur": 390
+        },
+        {
+          "day": 2,
+          "activities": [
+            "Breakfast at Adlon (€30)",
+            "VIP museum access (€80)",
+            "Expert-guided tour (included)",
+            "Lunch at museum café (€35)",
+            "Afternoon at luxury mall (€50)",
+            "Fine dining dinner (€100)"
+          ],
+          "estimated_cost_eur": 295
+        },
+        {
+          "day": 3,
+          "activities": [
+            "Breakfast (€30)",
+            "Private Reichstag tour (€120)",
+            "Lunch overlooking Brandenburg Gate (€50)",
+            "Charlottenburg Palace private tour (€80)",
+            "Dinner at 2-star Michelin (€150)"
+          ],
+          "estimated_cost_eur": 430
+        },
+        {
+          "day": 4,
+          "activities": [
+            "Breakfast at Adlon (€30)",
+            "Personal shopping tour (€100)",
+            "Lunch at exclusive club (€40)",
+            "Spa and relaxation (€120)",
+            "VIP nightclub with bottle service (€180)"
+          ],
+          "estimated_cost_eur": 470
+        }
+      ],
+      "cost_breakdown": {
+        "accommodation_total": 750,
+        "meals_total": 480,
+        "activities_total": 530,
+        "transport_total": 120,
+        "total_eur": 1880,
+        "per_person_eur": 940
+      },
+      "highlights": [
+        "Luxury 5-star hotel (Adlon Kempinski)",
+        "Private expert-guided tours",
+        "Michelin-starred dining",
+        "VIP nightclub access",
+        "Personal car service throughout"
+      ],
+      "notes": "Ultimate luxury experience with 5-star accommodation and Michelin dining. Private guides for historical tours. VIP nightclub access with bottle service. Premium experience combining culture with high-end entertainment."
+    }
+  ],
+  "status": "generated"
+}

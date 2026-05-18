@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 Horizons - AI-Powered Travel Planning
 
 > Premium, intelligent travel itinerary generation using Retrieval-Augmented Generation (RAG) and Groq LLaMA 3.3 70B
@@ -249,3 +250,6 @@ For issues, questions, or suggestions:
 ---
 
 **Built with ❤️ using RAG and AI** | *Making travel planning intelligent and accessible*
+=======
+# travel_rag
+>>>>>>> df014d17bf2d4f3f36f0e8338ecfc7e5ee9f99eb

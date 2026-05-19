@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌍 Horizons - AI-Powered Travel Planning
 
 > Premium, intelligent travel itinerary generation using Retrieval-Augmented Generation (RAG) and Groq LLaMA 3.3 70B
@@ -12,7 +11,7 @@ A beautifully designed web application that generates personalized, budget-aware
 - **💰 Smart Budget Breakdown**: Automatic cost distribution across accommodation, meals, activities, and transport
 - **🎯 Multiple Budget Tiers**: Budget, Comfort, and Luxury variants for every trip
 - **📊 4-Part Cost System**: Detailed breakdown of all expenses with per-person calculations
-- **🎨 Premium Interface**: Modern dark theme with glassmorphism effects and smooth animations
+- **🎨 Clean Interface**: Minimalist light theme with professional styling and smooth animations
 - **⚡ Fast Retrieval**: CSV-based SimpleRetriever for instant restaurant lookups
 - **✅ Smart Validation**: Constraint checking and budget-aware planning
 
@@ -106,7 +105,7 @@ Output: Complete itineraries with daily schedules and cost breakdowns
    - Cost breakdown verification
 
 5. **Interface** (`app.py`)
-   - Streamlit web UI with Horizons theme
+   - Streamlit web UI with clean, minimalist design
    - Real-time budget calculations
    - Interactive city selection dropdowns
    - Beautiful variant cards display
@@ -250,6 +249,3 @@ For issues, questions, or suggestions:
 ---
 
 **Built with ❤️ using RAG and AI** | *Making travel planning intelligent and accessible*
-=======
-# travel_rag
->>>>>>> df014d17bf2d4f3f36f0e8338ecfc7e5ee9f99eb

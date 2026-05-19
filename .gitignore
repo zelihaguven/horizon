@@ -43,6 +43,7 @@ env/
 
 # Streamlit
 .streamlit/
+!.streamlit/config.toml
 streamlit_app.log
 
 # Data & Cache

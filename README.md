@@ -1,21 +1,21 @@
-# 🌍 Horizons - AI-Powered Travel Planning
+#  Horizons - AI-Powered Travel Planning
 
 > Premium, intelligent travel itinerary generation using Retrieval-Augmented Generation (RAG) and Groq LLaMA 3.3 70B
 
 A beautifully designed web application that generates personalized, budget-aware travel itineraries using advanced AI and real restaurant data.
 
-## ✨ Features
+##  Features
 
-- **🤖 AI-Powered Generation**: Uses Groq LLaMA 3.3 70B for intelligent itinerary creation
-- **🏨 Real Restaurant Database**: 30 verified restaurants across 6 European cities
-- **💰 Smart Budget Breakdown**: Automatic cost distribution across accommodation, meals, activities, and transport
-- **🎯 Multiple Budget Tiers**: Budget, Comfort, and Luxury variants for every trip
-- **📊 4-Part Cost System**: Detailed breakdown of all expenses with per-person calculations
-- **🎨 Clean Interface**: Minimalist light theme with professional styling and smooth animations
-- **⚡ Fast Retrieval**: CSV-based SimpleRetriever for instant restaurant lookups
-- **✅ Smart Validation**: Constraint checking and budget-aware planning
+- **AI-Powered Generation**: Uses Groq LLaMA 3.3 70B for intelligent itinerary creation
+- **Real Restaurant Database**: 30 verified restaurants across 6 European cities
+- **Smart Budget Breakdown**: Automatic cost distribution across accommodation, meals, activities, and transport
+- **Multiple Budget Tiers**: Budget, Comfort, and Luxury variants for every trip
+- **4-Part Cost System**: Detailed breakdown of all expenses with per-person calculations
+- **Clean Interface**: Minimalist light theme with professional styling and smooth animations
+- **Fast Retrieval**: CSV-based SimpleRetriever for instant restaurant lookups
+- **Smart Validation**: Constraint checking and budget-aware planning
 
-## 🌆 Supported Destinations
+## Supported Destinations
 
 | City | Restaurants | Cuisine Types |
 |------|------------|---------------|
@@ -26,7 +26,7 @@ A beautifully designed web application that generates personalized, budget-aware
 | 🇳🇱 Amsterdam | 5+ | Dutch, Fine Dining, Casual |
 | 🇮🇹 Rome | 5+ | Traditional, Fine Dining, Local |
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -110,7 +110,7 @@ Output: Complete itineraries with daily schedules and cost breakdowns
    - Interactive city selection dropdowns
    - Beautiful variant cards display
 
-## 📊 Output Example
+##  Output Example
 
 For a 3-day trip from London to Paris with €900 budget and 2 travelers:
 
@@ -137,7 +137,7 @@ LUXURY VARIANT
 └─ Transport: Private car service
 ```
 
-## 🛠 Configuration
+##  Configuration
 
 ### Environment Variables
 
@@ -184,7 +184,7 @@ horizon/
     └── demo_barcelona_luxury.json
 ```
 
-## 🧪 Testing
+##  Testing
 
 The project includes demo itineraries for testing:
 
@@ -195,7 +195,7 @@ examples/demo_berlin_comfort.json
 examples/demo_barcelona_luxury.json
 ```
 
-## 🔧 API Requirements
+##  API Requirements
 
 ### Groq API
 - **Free tier**: Excellent for development and testing
@@ -207,13 +207,13 @@ examples/demo_barcelona_luxury.json
 - **Alternative LLM**: For comparison or fallback
 - **API key**: From [Google AI Studio](https://aistudio.google.com)
 
-## 📚 Additional Documentation
+##  Additional Documentation
 
 - **[ARCHITECTURE.md](ARCHITECTURE.md)** - Detailed system design and prompt engineering
 - **[SETUP_GUIDE.md](SETUP_GUIDE.md)** - Comprehensive installation guide
 - **[examples/](examples/)** - Sample outputs and use cases
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Areas for improvement:
 
@@ -224,28 +224,21 @@ Contributions are welcome! Areas for improvement:
 - [ ] Performance optimizations
 - [ ] Unit and integration tests
 
-## 📝 License
+##  License
 
 MIT License - See LICENSE file for details
 
-## 👨‍💻 Author
+##  Author
 
-**Ilgın Güven** - AI & Travel Enthusiast
+**Ilgın Güven** - AI & Travel Enthusiast 
 
-## 🙏 Acknowledgments
+**Special thanks for the collab , Chaewon Bak** 
+
+##  Acknowledgments
 
 - [Groq](https://groq.com) - LLaMA 3.3 70B API
 - [Streamlit](https://streamlit.io) - Web framework
 - [LangChain](https://langchain.com) - RAG framework
 - European city data - Manual curation & research
 
-## 📞 Support
-
-For issues, questions, or suggestions:
-1. Open an [issue](https://github.com/zelihaguven/horizon/issues)
-2. Check existing documentation
-3. Review example outputs
-
----
-
-**Built with ❤️ using RAG and AI** | *Making travel planning intelligent and accessible*
+*Making travel planning intelligent and accessible*

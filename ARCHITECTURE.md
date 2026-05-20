@@ -6,7 +6,7 @@
 ┌─────────────────────────────────────────────────────────────────┐
 │                      TRAVEL RAG SYSTEM                           │
 │                                                                   │
-│  Day 1: Data Ingestion    Day 2: Retrieval & Generation          │
+│   Data Ingestion     Retrieval & Generation          │
 │  ────────────────────    ──────────────────────────────           │
 │                                                                   │
 │  ┌──────────────┐       ┌──────────────┐     ┌──────────────┐   │
@@ -35,20 +35,20 @@
 │                                            │ breakdown    │      │
 │                                            └──────────────┘      │
 │                                                                   │
-│  Day 3: Validation & Metrics   Day 4: Presentation             │
-│  ─────────────────────────────  ───────────────────             │
+│   Validation & Metrics             │
+│  ─────────────────────────────        │
 │                                                                   │
-│  • Constraint validation        • Demo to Prof. Reck           │
-│  • Metrics collection           • Metrics report               │
-│  • Hallucination detection      • Live itinerary generation    │
-│  • Evaluation dashboard         • Q&A                          │
+│  • Constraint validation                   │
+│  • Metrics collection                        │
+│  • Hallucination detection         │
+│  • Evaluation dashboard                               │
 │                                                                   │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
 ## Data Flow
 
-### 1. Data Layer (Complete - Day 1)
+### 1. Data Layer 
 ```
 Raw Kaggle Data
     ↓
@@ -70,7 +70,7 @@ ChromaDB (44 vectors)
     └─ transport (14 vectors)
 ```
 
-### 2. Retrieval Layer (New - Day 2)
+### 2. Retrieval Layer 
 ```
 User Query
     ↓ (e.g., "affordable hotels in Paris")
@@ -87,7 +87,7 @@ Retrieved Options (filtered by relevance & constraints)
     └─ Transport options
 ```
 
-### 3. Generation Layer (New - Day 2)
+### 3. Generation Layer 
 ```
 Retrieved Options + Constraints
     ↓
@@ -253,46 +253,30 @@ The system enforces constraints at 3 levels:
 
 ## Testing Results So Far
 
-✅ **Day 1 Complete:**
 - Created 44 vectors in ChromaDB
 - Simplified semantic search tests pass
 - Metadata structure working (name, city, price, rating)
 
-🔄 **Day 2 In Progress:**
+
 - Retriever module created (ready to test)
 - Generator module created (ready with Groq key)
 - Main orchestration created (ready to run)
 - Requirements.txt documented
 
-## Next Steps
-
-**Day 3 Tasks:**
-1. Run full integration test (main.py)
-2. Add validation layer (place verification, budget enforcement)
-3. Create metrics collection (token usage, generation time)
-4. Build hallucination detection (flag invented attractions)
-5. Create evaluation dashboard
-
-**Day 4 Tasks:**
-1. Final demo preparation
-2. Metrics report generation
-3. Live generation demo for Prof. Reck
-4. Q&A preparation
 
 ## Files Structure
 
 ```
-/Users/ilginguven/Documents/Claude/Projects/school work/
-├── ingest.py                 (Day 1: Data loading)
+├── ingest.py                 
 ├── src/
-│   └── data_pipeline.py      (Day 1: Data processing)
+│   └── data_pipeline.py      
 ├── embeddings.py             (Shared: Model initialization)
-├── retriever.py              (Day 2: Semantic search)
-├── generator.py              (Day 2: LLM generation)
-├── main.py                   (Day 2: Orchestration)
+├── retriever.py             
+├── generator.py             
+├── main.py                   
 ├── debug_kaggle.py           (Debugging helper)
 ├── requirements.txt          (Dependencies)
-├── ARCHITECTURE.md           (This file)
+├── ARCHITECTURE.md           
 ├── DAY2_SETUP.md             (Setup guide)
 ├── chroma_db/                (ChromaDB vector store)
 └── itineraries/              (Generated outputs)
